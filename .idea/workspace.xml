@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2498153f-29f6-4b74-b8f9-e225ab19be3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/designvendingmachinesystem/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/low-level-design.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trafficsignalcontrolsystem/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trafficsignalcontrolsystem/src/main/java/com/edition/Enum/Directions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendingmachine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendingmachine/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendingmachinesystem/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2498153f-29f6-4b74-b8f9-e225ab19be3d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +21,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Tejas1018"
+  }
+}]]></component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="fe119c21-4074-47bc-8f46-324d9a213893" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Tejas1018/Low-Level_Designs.git",
+    "accountId": "fe119c21-4074-47bc-8f46-324d9a213893"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -49,6 +52,7 @@
     "Application.VendingMachineDemo.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -59,7 +63,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/teja/IdeaProjects/low-level-design/vendingmachine/src/main/java/com/lowleveldesign/Main.java",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759473313927</updated>
-      <workItem from="1766026370332" duration="2965000" />
+      <workItem from="1766026370332" duration="6880000" />
     </task>
     <servers />
   </component>
