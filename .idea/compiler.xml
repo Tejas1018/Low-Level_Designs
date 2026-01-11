@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DesignATM" />
         <module name="vendingmachine" />
         <module name="SnakeAndLadder" />
+        <module name="ElevatorSystem" />
       </profile>
     </annotationProcessing>
   </component>

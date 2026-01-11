@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2498153f-29f6-4b74-b8f9-e225ab19be3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SnakeAndLadder/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ElevatorSystem/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnakeAndLadder/src/main/java/com/lowleveldesign/SnakeAndLaddersMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/SnakeAndLadder/src/main/java/com/lowleveldesign/SnakeAndLaddersMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/low-level-design.iml" beforeDir="false" afterPath="$PROJECT_DIR$/low-level-design.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Enum" />
         <option value="Class" />
       </list>
@@ -36,12 +37,15 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="fe119c21-4074-47bc-8f46-324d9a213893" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:Tejas1018/Low-Level_Designs.git",
-    "accountId": "fe119c21-4074-47bc-8f46-324d9a213893"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Tejas1018/Low-Level_Designs.git&quot;,
+    &quot;accountId&quot;: &quot;fe119c21-4074-47bc-8f46-324d9a213893&quot;
   }
-}]]></component>
+}</component>
+  <component name="MavenRunner">
+    <option name="jreName" value="openjdk-25" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -55,8 +59,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ATMRoom.executor": "Run",
     "Application.SnakeAndLaddersMain.executor": "Run",
     "Application.VendingMachineDemo.executor": "Run",
+    "Maven.DesignATM [compile].executor": "Run",
+    "Maven.ElevatorSystem [compile].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -64,17 +71,39 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/teja/IdeaProjects/low-level-design/DesignATM",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/teja/IdeaProjects/low-level-design/SnakeAndLadder/src/main/java/com/lowleveldesign/Main.java",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "onboarding.tips.debug.path": "/Users/teja/IdeaProjects/low-level-design/ATM/src/main/java/com/lowleveldesign/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SnakeAndLaddersMain">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DesignATM" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ATMRoom">
+    <configuration name="ATMRoom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lowleveldesign.ATMRoom" />
+      <module name="DesignATM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lowleveldesign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SnakeAndLaddersMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lowleveldesign.SnakeAndLaddersMain" />
       <module name="SnakeAndLadder" />
@@ -103,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ATMRoom" />
         <item itemvalue="Application.SnakeAndLaddersMain" />
         <item itemvalue="Application.VendingMachineDemo" />
       </list>
@@ -124,12 +154,45 @@
       <option name="presentableId" value="Default" />
       <updated>1759473313927</updated>
       <workItem from="1766026370332" duration="7534000" />
-      <workItem from="1766138066815" duration="2579000" />
+      <workItem from="1766138066815" duration="3703000" />
+      <workItem from="1766377273281" duration="601000" />
+      <workItem from="1766473409320" duration="1132000" />
+      <workItem from="1766986031410" duration="236000" />
+      <workItem from="1766986276809" duration="44000" />
+      <workItem from="1766990854809" duration="91000" />
+      <workItem from="1766990952745" duration="699000" />
+      <workItem from="1767878849366" duration="3154000" />
+      <workItem from="1768037959219" duration="6910000" />
+      <workItem from="1768114045998" duration="1065000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ElevatorSystem/src/main/java/com/lowleveldesign/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/DesignATM/src/main/java/com/lowleveldesign/ATMRoom.java</url>
+          <line>9</line>
+          <properties class="com.lowleveldesign.ATMRoom" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
